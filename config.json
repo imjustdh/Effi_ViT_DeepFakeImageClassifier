@@ -1,0 +1,21 @@
+{
+  "num_classes": 2,
+  "batch_size": 32,
+  "use_checkpoint": false,
+  "num_workers": 8,
+  "max_train_samples": 40000,
+  "max_val_samples": 4000,
+  "num_epochs": 20,
+  "patience": 5,
+  "warmup_epochs": 2,
+  "learning_rate": 0.0002,
+  "weight_decay": 1e-05,
+  "label_smoothing": 0.1,
+  "image_size": 224,
+  "aug_strength": "strong",
+  "use_mixup": true,
+  "mixup_alpha": 0.4,
+  "cutmix_alpha": 1.0,
+  "save_dir": "checkpoints_48gb",
+  "seed": 42
+}
